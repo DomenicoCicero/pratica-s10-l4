@@ -62,7 +62,7 @@ describe("control over rendering", () => {
     render(<App />);
     const image = screen.getAllByRole("img")[0];
     fireEvent.click(image);
-    const comments = await screen.findByText(/add comment/i);
-    expect(comments).toBeInTheDocument();
+    const review = await screen.findByText(/add comment/i);
+    expect(review).toBeInTheDocument();
   });
 });
