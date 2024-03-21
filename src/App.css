@@ -1,0 +1,21 @@
+.image {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card {
+  height: 450px !important;
+  margin-block-start: 15px;
+  margin-block-end: 15px;
+  position: relative;
+}
+
+.button {
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+}
+
+.card.selected {
+  border: 2px solid red;
+}
